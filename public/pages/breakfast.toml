@@ -1,0 +1,32 @@
+cover = "./pages/coffee.webp"
+coverStyle = "coverNormal"
+style = "normal"
+
+[styles]
+brackets = "yellow"
+highlight = "#ff6b6b"
+text = "#bbb"
+special = "blink"
+
+[links]
+H = "welcome.toml"
+R = "readme.toml"
+M = "meet.toml"
+C = "cocktails.toml"
+S = "streets.toml"
+
+[content]
+text = """
+## UP FOR COFFEE?
+The one thing that you'll love about Buenos Aires is coffee.  We have literally hundreds of unique coffee shops around town. From specialty coffee to keto bakeries and high-protein options for your post-workout fix, the choices are endless. Imagine an old nuns' abbey turned into a coffee place or a café inside a Russian church. We even have Turkish coffee heated on sand. There are so many options, it's impossible to explore them all by yourself. 
+Like any dev, I love coffee, and I take any chance to buy a fellow dev a cup. Let me treat you to one of the best spots in Buenos Aires. Breakfast is on me!
+
+{{MENU:}} [[H]]Home [[R]]Readme [[C]]Code & CocktailS [[S]]Scripted Streets [[M]]Let's Meet
+
+
+
+
+
+
+
+"""

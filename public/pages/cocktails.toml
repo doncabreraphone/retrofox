@@ -1,0 +1,32 @@
+cover = "./pages/cocktails.webp"
+coverStyle = "coverNormal"
+style = "normal"
+
+[styles]
+brackets = "yellow"
+highlight = "#6bdcff"
+text = "#bbb"
+special = "blink"
+
+[links]
+H = "welcome.toml"
+R = "readme.toml"
+M = "meet.toml"
+B = "breakfast.toml"
+S = "streets.toml"
+
+[content]
+text = """
+## CODE AND COCKTAILS
+How does having a cold one at a bar floating on the river sound? Or maybe at a sky bar? Buenos Aires has some of the best spots to have drinks in Latin America. Ever thought about listening to a live jazz band in a secret room at the back of a bookstore? How about a speakeasy inside a flower shop? ((The places I like to go to are chic, have great music, and are perfect for conversation!)) 
+I’m always on the lookout for spots where I can enjoy good music and vibes without it being so loud that I can't chat with new people. It’s all about finding places with the right balance of energy, great sound, and a social atmosphere. We have great places in Buenos Aires, so—ready to push some drinks to production?
+
+{{MENU:}} [[H]]Home [[R]]Readme [[B]]Breakfast Bytes [[S]]Scripted Streets [[M]]Let's Meet
+
+
+
+
+
+
+
+"""

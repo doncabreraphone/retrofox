@@ -1,0 +1,34 @@
+cover = "./pages/brunch.webp"
+coverStyle = "coverNormal"
+style = "normal"
+
+[styles]
+brackets = "yellow"
+highlight = "#ff6b6b"
+text = "#bbb"
+special = "blink"
+
+[links]
+H = "welcome.toml"
+R = "readme.toml"
+B = "breakfast.toml"
+C = "cocktails.toml"
+S = "streets.toml"
+TELEGRAM = "https://t.me/+leTHkWYFTd04ZTIx"
+
+[content]
+text = """
+## LET'S HANG OUT
+Join our Telegram group by typing [[TELEGRAM]] on the command line. It’s a space just for Software Engineers, Web Developers, and Computer Nerds—free from spammy tango lessons and endless "learn Spanish!" promotions. When I’ve traveled, connecting with like-minded people made all the difference, and I want to offer that same support. Plus, who doesn’t enjoy drinks and good conversation with fellow devs?
+
+But Argentina isn’t just Buenos Aires—check out Tigre, La Plata, or Bariloche, or even go horse riding. It’s all part of what makes this place special. Join us on Telegram to connect and explore everything Argentina has to offer! We've got you!
+
+{{MENU:}} [[H]]Home [[R]]Readme [[B]]Breakfast Bytes [[C]]Code & CocktailS [[S]]Scripted Streets
+
+
+
+
+
+
+
+"""

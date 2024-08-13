@@ -1,0 +1,25 @@
+cover = "./pages/geeks.webp"
+coverStyle = "coverNormal"
+style = "normal"
+
+[styles]
+brackets = "yellow"
+highlight = "#ff6b6b"
+text = "#bbb"
+special = "blink"
+
+[links]
+H = "welcome.toml"
+B = "breakfast.toml"
+C = "cocktails.toml"
+S = "streets.toml"
+M = "meet.toml"
+
+[content]
+text = """
+## README FIRST! ##
+Traveling to Buenos Aires and feeling a bit lost? I know how challenging it can be to explore a new city without knowing anyone. After showing some dev friends around town, I decided to create ExpatsTechBsAs—a ((free, informal community for developers visiting my city)).
+
+There’s no money involved; it’s all about having fun, meeting new people, and sharing tips about staying in Buenos Aires over coffee, drinks and walks around town. Swing by my downtown office, just two blocks from Plaza de Mayo next to the Pink House (yep, ours is pink!), or connect with us through our Telegram group to get started and join the fun! 
+{{MENU:}} [[H]]Home [[B]]Breakfast Bytes [[C]]Code & CocktailS [[S]]Scripted Streets [[M]]Let's Meet
+"""

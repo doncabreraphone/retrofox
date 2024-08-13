@@ -1,0 +1,32 @@
+cover = "./pages/walking.webp"
+coverStyle = "coverNormal"
+style = "normal"
+
+[styles]
+brackets = "yellow"
+highlight = "#ff6b6b"
+text = "#bbb"
+special = "blink"
+
+[links]
+H = "welcome.toml"
+R = "readme.toml"
+M = "meet.toml"
+C = "cocktails.toml"
+B = "breakfast.toml"
+
+[content]
+text = """
+## SCRIPTED STREETS
+How about a mini-walking tour of Buenos Aires, but from a fellow dev’s perspective? My office is downtown, so we’re close to everything. We’ll hit the historic spots like the Casa Rosada and Plaza de Mayo, but I’ll also show you where to find the best Wi-Fi and coffee for those quick work breaks. We’ll explore San Telmo’s street art and Puerto Madero’s stunning river views, and I’ll share tips on the best spots and activites you simply can't miss while in Buenos Aires. 
+Join me and fellow expat devs for mini-walking tours through the streets of Buenos Aires, hitting the cool, hidden spots that you won't find in any tourist guide.
+
+{{MENU:}} [[H]]Home [[R]]Readme [[B]]Breakfast Bytes [[C]]Code & CocktailS [[M]]Let's Meet
+
+
+
+
+
+
+
+"""

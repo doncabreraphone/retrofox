@@ -1,0 +1,29 @@
+cover = "./pages/cover.webp"
+coverStyle = "coverWelcome"
+style = "menu"
+
+[styles]
+brackets = "yellow"
+highlight = "#fe00fd"
+text = "white"
+
+[links]
+R = "readme.toml"
+B = "breakfast.toml"
+C = "cocktails.toml"
+S = "streets.toml"
+M = "meet.toml"
+
+[content]
+text = """
+# WELCOME TO BUENOS AIRES! #
+Visiting Buenos Aires? We’re Devs too! Come for beers, social mixers, and city walks! (it's free!)
+<br>
+SELECT ONE OPTION:<br>
+1. [[R]] Readme First
+2. [[B]] Breakfast Bytes 
+3. [[C]] Code & Cocktails
+4. [[S]] Scripted Streets
+5. [[M]] Let's Meet
+
+"""
